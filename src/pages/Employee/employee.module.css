@@ -1,0 +1,48 @@
+/* -------------employee------------- */
+.addEmployee,
+.employee {
+  padding-top: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+/* ----------addEmployee---------- */
+.buttonBox {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.butonAction svg {
+  font-size: 20px;
+}
+
+.payslipDetail {
+  padding: 5px 20px;
+}
+
+.payslipTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payslipTable td {
+  padding: 5px;
+  border: 1px solid var(--color_green);
+}
+
+.payslipTable tr td:last-child {
+  text-align: right;
+}
+
+.itemLevel1 td {
+  font-weight: 600;
+}
+
+.itemLevel2 td:first-child {
+  padding-left: 30px;
+}
+
+.filter {
+  width: 100%;
+  min-width: 120px;
+}

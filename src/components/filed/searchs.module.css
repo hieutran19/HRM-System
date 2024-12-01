@@ -1,0 +1,27 @@
+.searchs button {
+  padding: 10px;
+  height: 38px !important;
+  border-start-end-radius: 16px !important;
+  border-end-end-radius: 16px !important;
+  background-color: var(--color_green);
+}
+
+.searchs button:hover {
+  background-color: var(--color_green) !important;
+}
+
+.searchs button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.searchs > span > span {
+  padding: 6px 12px;
+  border-start-start-radius: 16px !important;
+  border-end-start-radius: 16px !important;
+  height: 38px !important;
+}
+.searchs {
+  min-width: 160px;
+  width: 200px;
+}

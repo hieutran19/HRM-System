@@ -1,0 +1,17 @@
+/* -------------employee------------- */
+.addEmployee,
+.employee {
+  padding-top: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+/* ----------addEmployee---------- */
+.buttonBox {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.butonAction svg {
+  font-size: 20px;
+}

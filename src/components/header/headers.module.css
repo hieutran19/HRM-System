@@ -1,0 +1,14 @@
+.headers {
+  display: grid;
+  grid-template-columns: 90px auto 90px;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+.headers {
+  background: var(--color_green1);
+}

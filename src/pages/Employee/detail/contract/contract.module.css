@@ -1,0 +1,30 @@
+.modal {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  padding: 15px 12px;
+}
+
+.previewModel {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+}
+
+.previewModel img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.previewModel span {
+  font-size: 17px;
+  text-decoration: underline;
+  font-style: italic;
+}

@@ -1,0 +1,68 @@
+.contract {
+  padding-top: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.basic {
+  margin: 50px 0;
+  position: relative;
+  border-radius: 20px;
+  padding: 40px 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px 50px;
+}
+
+.information {
+  margin-bottom: 50px;
+}
+
+.titles {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background: var(--color_white);
+}
+
+/* Item */
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item label {
+  min-width: 180px;
+  color: var(--color_black1);
+  font-weight: 600;
+}
+
+.item span,
+.item a {
+  position: relative;
+}
+
+.item a {
+  word-break: break-all;
+}
+
+.allowanceWrapper {
+  grid-column: span 2;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px 50px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding-top: 35px;
+}
+
+.allowanceWrapper > label {
+  font-size: 18px;
+  position: absolute;
+  top: -10px;
+  /* left: 10px; */
+  background: var(--color_white);
+}

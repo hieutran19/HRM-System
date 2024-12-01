@@ -1,0 +1,90 @@
+/* General styles for the calendar */
+.calendar * {
+  font-size: 14px;
+}
+
+.calendarCell {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventContainer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each event item */
+.eventItem {
+  padding: 2px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--color_white);
+}
+
+.eventItem.success {
+  background-color: #88c273;
+}
+.eventItem.error {
+  background-color: #de7c7d;
+}
+.eventItem.default {
+  background-color: #608bc1;
+}
+
+.eventItem.processing {
+  background-color: #608bc1;
+}
+
+.eventItem span {
+  font-size: 13px; /* Font size for details */
+}
+
+/* Change background color on hover */
+.eventItem:hover {
+  opacity: 0.8;
+}
+
+/* Style for the detail event section in the modal */
+.detailEvent {
+  padding: 10px 20px; /* Padding inside the modal */
+}
+
+.detailEvent p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.navigateBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  transform: translateY(-50%);
+}
+
+.navigateBtn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.previousBtn {
+  left: 0;
+}
+
+.nextBtn {
+  right: 0;
+}

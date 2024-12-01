@@ -1,0 +1,23 @@
+.tables {
+  margin-top: 20px;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+}
+
+.tables button {
+  width: 20px;
+  height: 20px;
+}
+
+.tables * {
+  font-size: 14px;
+}
+
+.tables button svg {
+  border: none;
+  outline: none;
+}
+
+.pagination {
+  border-top: 1px solid #ececec;
+}

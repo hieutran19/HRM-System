@@ -1,0 +1,181 @@
+/* Layout */
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  height: calc(100vh - 100px);
+  margin-top: 60px;
+  background-color: var(--color_white);
+}
+
+/* table */
+.table-icon-box {
+  display: flex;
+  gap: 6px;
+}
+
+.table-icon {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: var(--color_blue);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-icon:hover {
+  opacity: 0.8;
+}
+
+/* Modal */
+.modal {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  padding: 15px 20px;
+}
+
+/* Functionbar */
+.functionBarRight,
+.functionBarRightNotCreate,
+.functionBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.functionBar {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.functionBarRightNotCreate,
+.functionBarRight {
+  margin-left: auto;
+  justify-content: right;
+  flex: 1;
+}
+
+.functionBarNotCreate {
+  position: relative;
+  margin-top: 5px;
+}
+
+.functionBarRightNotCreate {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.subTitle {
+  margin-top: 4px;
+}
+
+.subTitle label {
+  font-weight: 600;
+}
+
+.filterBar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+/* Custom table */
+/* .kTXctF {
+  max-height: 288px;
+  overflow-y: auto;
+} */
+
+/* Custom modal */
+.ant-modal .ant-modal-content {
+  padding: 0;
+}
+
+.ant-modal-header {
+  overflow: hidden;
+}
+.ant-modal-close-x .anticon svg {
+  color: var(--color_white);
+}
+.ant-modal-title {
+  background-color: var(--color_green1);
+  color: var(--color_white) !important;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  font-size: 18px !important;
+}
+
+.ant-modal-close {
+  top: 8px !important;
+}
+
+.kNOuFh {
+  display: block !important;
+}
+
+.ant-select-selector {
+  border-radius: 10px !important;
+}
+
+/* Style for the current day in the calendar */
+/* .ant-picker-content {
+  border-collapse: unset !important;
+} */
+
+.ant-picker-calendar-header {
+  padding: 4px 0 !important;
+}
+
+.ant-picker-content {
+  border-collapse: unset !important;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--color_gray1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.ant-picker-content thead th {
+  color: var(--color_white) !important;
+  height: 30px !important;
+  background-color: #278a7c;
+  padding-bottom: 0 !important;
+}
+
+.ant-picker-calendar-date {
+  background-color: #fafafa;
+  margin: 0px !important;
+  overflow: hidden;
+  height: 84px !important;
+}
+
+.ant-picker-calendar-date-content {
+  height: 54px !important;
+}
+
+.ant-picker-calendar-date:hover {
+  background-color: #e6f4ff !important;
+}
+
+.ant-picker-calendar-mode-switch {
+  display: none !important;
+}
+.ant-picker-content tr > td:nth-child(1) .ant-picker-cell-inner {
+  background-color: #f0f0f0 !important; /* Màu xám */
+  pointer-events: none; /* Chặn tương tác chuột */
+  user-select: none; /* Ngăn chọn văn bản */
+}

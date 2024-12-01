@@ -1,0 +1,70 @@
+.formEmployee {
+  margin: 40px 0;
+}
+.basic {
+  border-radius: 20px;
+  padding: 40px 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px 50px;
+}
+
+.information {
+  margin-bottom: 50px;
+}
+.titles {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background: var(--color_white);
+}
+
+/* form */
+.formPayslip label {
+  font-size: 15px;
+}
+
+.formPayslip {
+  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+}
+
+.itemFull {
+  grid-column: 1 / 2 span;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemFullBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.twoItem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 50px;
+}
+
+.butonAction {
+  display: flex;
+  gap: 4px;
+}
+
+.butonAction button {
+  font-size: 15px;
+}
+
+.butonAction svg {
+  font-size: 20px;
+}
+
+.formLabel label {
+  font-weight: 500 !important;
+}

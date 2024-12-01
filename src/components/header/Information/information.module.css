@@ -1,0 +1,10 @@
+.logoutBtn {
+  background-color: transparent;
+  color: var(--color_white);
+  border: none;
+  outline: none;
+}
+
+.logoutBtn:hover {
+  color: var(--color_blue);
+}

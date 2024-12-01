@@ -1,0 +1,25 @@
+.menus ul {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menus {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.menus ul li {
+  cursor: pointer;
+  color: var(--color_white);
+}
+.menus ul li a {
+  color: var(--color_white);
+  font-size: 15px;
+}
+
+.menuItem.active a {
+  color: var(--color_orange);
+}
